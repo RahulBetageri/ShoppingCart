@@ -85,9 +85,7 @@ const resolvers = {
               };
               points.push(obj);
             }
-            // rslt.rows.forEach((e) => {
-            //   //push the data and resolved
-            // });
+
             resolve(points);
           } else {
             resolve([]);
